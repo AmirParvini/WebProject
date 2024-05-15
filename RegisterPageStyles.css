@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    /* border: solid 1px; */
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/realistic-abstract-technology-particle-background_23-2148431263.jpg?t=st=1715776137~exp=1715779737~hmac=5c90be82ec111d72e93786753fc22430c5af3f31247e588e5ad97b3b7360dc51&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+p, h1 {
+    color: white;
+}
+
+.container {
+    /* border: solid 1px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.signup {
+    /* border: solid 1px; */
+    /* height: 30%; */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+form {
+    /* border: solid 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: 70%;
+    padding-top: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#fname, #lname, #email {
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    background: none;
+    border: none;
+    border-bottom: solid 2px;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    font-size: 16px;
+    color: white;
+    border-color: black;
+}
+
+#fname::placeholder, #lname::placeholder, #email::placeholder  {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    border-bottom: solid 1px;
+}
+
+#fname:hover, #lname:hover, #email:hover {
+    transform: scale(1.02);
+    border-color: white;
+}
+
+.SB {
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    width: 100%;
+}
